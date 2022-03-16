@@ -1,0 +1,269 @@
+@charset "UTF-8";
+body {
+	color: #191919;
+	font-size: 14px;
+	background-image: url(../images/watercolor.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: filson-pro,sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	margin-top: -54px;
+}
+
+#container{
+	width: 1280px;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+aside {
+    width: 225px;
+    float: left;
+    height: 3350px;
+    background-color: #9F9F9F;
+    margin-left: 0px;
+    margin-top: 60px;
+    padding-left: 0px;
+    clear: left;
+}
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    margin: 100px 0px 0px 0px;
+    background-image: url(../images/header_new-01.jpg);
+    background-size: 1085px auto;
+}
+
+
+/*Float the main so it shows up next to the aside. Reduce width by 150 px so they both line up with header. */
+main {
+    height: 1600px;
+	width: 1000px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+h1{
+    color: #FAC0B5;
+    font-size: 40px;
+    font-family: politica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 834px;
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 1280px;
+    height: 50px;
+    clear: both;
+    background-color: #F9CEC5;
+    font-size: 37px;
+    text-align: center;
+    padding-top: 0px;
+}
+img {
+	float: right;
+	padding-top: 11px;
+	padding-right: 11px;
+	padding-bottom: 11px;
+	padding-left: 11px;
+}
+.floatleft {
+	float: left;
+}
+article {
+    margin-bottom: 50px;
+}
+.center {
+	margin:auto;
+	
+}
+nav {
+	width: 1280px;
+	background-color: #FFFFFF;
+	top: 10px;
+	position: fixed;
+	height: 47px;
+	margin-top: -11px;
+}
+#container nav li {
+	float: left;
+	width: 80px;
+	display: block;
+	margin-right: 60px;
+	margin-left: 127px;
+	margin-bottom: 0px;
+	font-size: 27px;
+	list-style-type: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	height: 33px;
+}
+#conatiner nav ul {
+    width: 565px;
+	
+	
+}
+nav a:link {
+    color: #F6B8AD;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #BDD9D9;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #F79C85;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #312D2D;
+}
+   
+.submit_btn:hover{
+	width: 170;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #65ECFC;
+	-webkit-box-shadow: 4px 4px 5px #6C6565;
+    box-shadow: 4px 4px 5px #6C6565;
+}
+
+.column {
+    width: 250px;
+    height: 800px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+th{
+    background-color: #F5D1C5;	
+}
+
+.ccliscense{
+		width: 500px;
+		hight: 20px;
+		clear: both;
+		padding: 50px 0px 0px 0px;
+	}
+
+
+
+
+/*Rules the page will follow on tablet devices*/
+@media (max-width: 1024px){
+	#container{
+	width: 768px;
+	height: 2137px;
+	}
+	aside{
+	}
+	header{
+		width: 768px;
+	}
+	nav{
+		width: 768px;
+		
+	}
+	main{
+	width: 603px;
+	padding-top: 0px;
+	}
+	footer{
+	width: 768px;
+	}
+	.column{
+		margin: 0px 20px 0px 30px;
+	}
+	#container nav li{
+	margin-top: -2px;
+	margin-right: -2px;
+	margin-left: 83px;
+	margin-bottom: -2px;
+	}
+	
+}
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+	#container{
+	width: 300px;
+	height: 3180px;
+	}
+	header{
+    width: 300px;
+    background-image: url("../images/header_new_300-01.png")
+	}
+	nav{
+		width: 300px;
+		height: 250px;
+		position: static;	
+	}
+	main{
+	width: 291px;
+	}
+	footer{
+		width: 300px;
+	}
+	.column{
+		margin: 0px 20px 0px 30px;
+	}
+	#container nav li{
+		margin: 40px;
+	}
+	aside{
+    display: none;
+    height: 167px;
+	}
+	#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #65EBFB;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+}

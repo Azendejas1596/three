@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>allyblog</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/allystyles.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/hjk7gkj.css">
+	<link rel="stylesheet" href="https://use.typekit.net/hjk7gkj.css">
+	<link rel="stylesheet" href="https://use.typekit.net/hjk7gkj.css">
+	<!-- TemplateBeginEditable name="head" -->
+	<style type="text/css">
+aside{
+	margin:0px;
+	height:2250px;
+}
+p{
+	width:500px;		
+}
+    </style>
+
+</head>
+
+<body>
+
+<div id="container">
+	
+  <header></header>
+  <nav>
+    <ul>
+      <!-- TemplateBeginEditable name="links" -->
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/allyblog.html">Blog</a></li>
+        <li><a href="../pages/Gallery.html">Gallery</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      <!-- TemplateEndEditable -->
+    </ul>	
+	
+	</nav>
+  <aside><h3> My name is Ally Zendejas. I am a junior at Cox Mill High School. In my free time I enjoy organizing events and community service projects.</h3>
+	<h3>Join me as I show you various parts of my life</h3>
+	  <h3>By Ally Zendejas</h3>
+  </aside>
+ 
+  <!-- TemplateBeginEditable name="main-content" -->
+  <main>
+    <h1>Page Title</h1>
+  </main>
+  <!-- TemplateEndEditable -->
+<footer>Thank you for viewing my site!</footer>
+</div>
+</body>
+</html>
+
